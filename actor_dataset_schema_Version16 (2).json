@@ -1,0 +1,37 @@
+{
+    "actorSpecification": 1,
+    "fields": {},
+    "views": {
+        "overview": {
+            "title": "Overview",
+            "transformation": {
+                "fields": ["title", "authors", "arxiv_id", "primary_category", "url"]
+            },
+            "display": {
+                "component": "table",
+                "properties": {
+                    "title": {
+                        "label": "Title",
+                        "format": "text"
+                    },
+                    "authors": {
+                        "label": "Authors",
+                        "format": "text"
+                    },
+                    "arxiv_id": {
+                        "label": "arXiv ID",
+                        "format": "text"
+                    },
+                    "primary_category": {
+                        "label": "Category",
+                        "format": "text"
+                    },
+                    "url": {
+                        "label": "URL",
+                        "format": "link"
+                    }
+                }
+            }
+        }
+    }
+}

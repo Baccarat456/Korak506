@@ -1,0 +1,24 @@
+{
+    "title": "Input schema of the ArXiv Research Paper Metadata scraper",
+    "type": "object",
+    "schemaVersion": 1,
+    "properties": {
+        "startUrls": {
+            "title": "Start URLs",
+            "type": "array",
+            "description": "URLs to start crawling from (arXiv listing pages or paper pages).",
+            "editor": "requestListSources",
+            "prefill": [
+                {
+                    "url": "https://arxiv.org/list/cs/recent"
+                }
+            ]
+        },
+        "maxRequestsPerCrawl": {
+            "title": "Max Requests per Crawl",
+            "type": "integer",
+            "description": "Maximum number of requests that can be made by this crawler.",
+            "default": 200
+        }
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "actorSpecification": 1,
+    "name": "ArXiv Research Paper Metadata scraper",
+    "title": "ArXiv Research Paper Metadata scraper",
+    "description": "Scraper that collects metadata from arXiv research papers (title, authors, abstract, arXiv id, categories, submission date, PDF link).",
+    "version": "0.0",
+    "meta": {
+        "templateId": "ai-generated-actor",
+        "generatedBy": "Gpt-4o-mini"
+    },
+    "input": "./input_schema.json",
+    "output": "./output_schema.json",
+    "storages": {
+        "dataset": "./dataset_schema.json"
+    },
+    "dockerfile": "../Dockerfile"
+}
